@@ -1,3 +1,9 @@
+if ( exists('g:dvimorak') && g:dvimorak )
+  fini
+en
+
+let g:dvimorak = 1
+
 inoremap hh <Esc>
 no d h
 no h j
